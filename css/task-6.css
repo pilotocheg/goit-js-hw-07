@@ -1,0 +1,40 @@
+/* task 6 */
+#controls,
+#boxes {
+  max-width: 486px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #f6f6fe;
+  padding: 32px;
+  display: flex;
+}
+
+#controls {
+  margin-top: 40px;
+  gap: 16px;
+}
+
+#controls input {
+  flex-grow: 150;
+  text-align: center;
+  background-color: transparent;
+}
+
+#controls button {
+  flex-grow: 120;
+}
+
+#controls button[data-destroy] {
+  background-color: #ff4e4e;
+}
+
+#controls button[data-destroy]:hover {
+  background-color: #ff7070;
+}
+
+#boxes {
+  margin-top: 16px;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: space-between;
+}

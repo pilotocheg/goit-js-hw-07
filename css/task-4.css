@@ -1,0 +1,23 @@
+/* task 4 */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+  margin-top: 40px;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.login-form label input {
+  width: 360px;
+  margin-top: 8px;
+}
+
+.login-form button {
+  width: 86px;
+  margin-top: 16px;
+}

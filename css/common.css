@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+input,
+button {
+  font-family: "Montserrat", sans-serif;
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04;
+}
+
+body {
+  margin: 16px;
+}
+
+button {
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  color: white;
+  background-color: #4e75ff;
+  border-radius: 8px;
+  height: 40px;
+  transition: background-color 250ms;
+}
+
+button:hover {
+  background-color: #6c8cff;
+}
+
+input {
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 0 16px;
+  transition: border-color 250ms;
+  outline: none;
+}
+
+input::placeholder {
+  color: inherit;
+}
+
+input:hover {
+  border-color: #000000;
+}
