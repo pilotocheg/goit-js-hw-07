@@ -182,6 +182,7 @@ input:hover {
 #controls input {
   flex-grow: 150;
   text-align: center;
+  background-color: transparent;
 }
 
 #controls button {
